@@ -1,12 +1,12 @@
 [workspace]
-members = [
+members = [ "encode_decode",
     "low_memory_thin_vec",
     "redis_mock",
     "redisearch_rs",
     "trie_bencher",
     "trie_rs",
 ]
-default-members = ["low_memory_thin_vec", "trie_rs", "redisearch_rs"]
+default-members = ["encode_decode", "low_memory_thin_vec", "trie_rs", "redisearch_rs"]
 resolver = "3"
 
 [workspace.lints.clippy]
